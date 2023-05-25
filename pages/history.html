@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacalut</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header class="header container">
+        <div>
+            <a href="../index.html"><img src="../img/logo.svg" class="logo"/></a>
+            <img src="../img/Made in.svg" class="madeIn"/>
+        </div>
+        <nav>
+        <ul class="nav">
+            <li class="nav_list"><a href="../pages/contact.html">Продукти</a></li>
+            <li class="nav_list"><a href="../pages/history.html">Про Lacalut</a></li>
+            <li class="nav_list">Корисно знати</li>
+            <li class="nav_list">Дітям</li>
+            <li class="nav_list">Купити</li>
+        </ul>
+    </nav>
+
+    <button
+        class="mobile-menu-btn open"
+        aria-expanded="false"
+        aria-controls="menu-container"
+        menu-button-open>
+        <img src="../img/menu.svg">
+      </button>
+
+
+    <div class="mobile-menu" id="menu-container" data-menu>
+        <div class="mobile_header">
+            <div class="mobile_header_logo">                
+                <a href="../index.html"><img src="../img/logo.svg" class="logo"/></a>
+            <img src="../img/Made in.svg" class="madeIn"/>
+            </div>
+            <button
+                class="mobile-menu-btn close"
+                aria-expanded="false"
+                aria-controls="menu-container"
+                menu-button-close>
+                <img src="../img/close.svg" alt="menu" class="icon-close" />
+            </button>
+        </div>
+        
+        <ul class="side_list menu_list">
+       
+            <li onclick="myFunction()" id="myBtn" class="side_title-list"><a href="../pages/contact.html">Продукти</a></li>
+            <span id="dots"></span><span id="more">
+                <p class="side_list-title">Застосування</p>
+                <ul class="side_list">
+                    <li class="side_title-list side_list-more">Кровоточивість ясен</li>
+                    <li class="side_title-list side_list-more">Чутливість зубів</li>
+                    <li class="side_title-list side_list-more">Дбайливе вибілювання</li>
+                    <li class="side_title-list side_list-more">Профілактика карієсу</li>
+                    <li class="side_title-list side_list-more">Захист на кожен день</li>
+                    <li class="side_title-list side_list-more">Для дітей</li>
+                </ul>
+            </span>
+            
+            <li class="side_title-list"><a href="../pages/history.html">Про Lacalut</a></li>
+            <li class="side_title-list">Корисно знати</li>
+            <li class="side_title-list">Дітям</li>
+            <li class="side_title-list">Купити</li>
+        </ul>
+
+    </div>
+
+
+
+
+    </header>
+
+<main>
+    <section class="error container">
+        <div class="blog_img">
+            <img src="../img/history.jpg">
+        </div>
+        <div class="error_text">
+            <h2 class="error_title">
+                Історія</h2>
+            <hr class="error_line">
+            <p class="error_desc">ТОВ «Натурпродукт-Вега» засноване в Україні в 1994 і є ексклюзивним дистриб’ютором продуктів, вироблених підприємствами, що входять до складу глобального концерну Др. Тайсс Натурварен ГмбХ, Німеччина.</p>
+        </div>
+    </section>
+
+    <section class="blood container">
+        <div class="blood_text">
+            <h3 class="blood_title">LACALUT – історія розробки ефективної зубної пасти</h3>
+            <hr class="blood_hr">
+            <p class="blood_desc">На початку 1920-х років компанія Boehringer Ingelheim (BI) проводила експерименти із сіллю молочної кислоти (лактатом), задля створення продукту, що буде захищати ясна. У той же час різні стоматологічні клініки намагалися боротися з гінгівітом і пародонтитом, що були вже дуже розповсюджені на той час, за допомогою солей алюмінію. Здебільшого спроби були не дуже задовільними. Однак, врешті-решт, стоматологи об’єднали свої зусилля разом із розробниками компанії Boehringer Ingelheim, щоб перевірити ефект формули лактату алюмінію.<br><br>
+                Успішний експеримент став початком створення зубного порошка "LACALUT", який був випущений в 1925 році. Було доведено, що порошок LACALUT, виготовлений за спеціальною технологією, ретельно очищає зуби та суттєво підтягує ясна. В’яжуча властивість формули LACALUT позитивно впливала на зменшення кровоточивості ясен. Зубний порошок LACALUT був ідеальним і, як засіб для чищення зубів, і як профілактичний засіб для запобігання захворюванням ясен. Згодом рецептура LACALUT перейшла у власність німецької фармацевтичної компанії Dr. Theiss Natrwaren, яка на сьогодні займається його виробництвом.</p>
+        </div>
+        <div class="blood_img teeth_img">
+            <img src="../img/history1.jpg">
+        </div>
+    </section>
+    
+</main>
+
+    <footer class="container footer">
+        <div class="footer_contact">
+            <div class="footer_part-media">
+                <div><a href="../index.html"><img class="footer_logo" src="../img/logo.svg"></a></div>
+                
+                <ul class="footer_social">
+                    <li class="footer_media"><img src="../img/instagram.svg" class="social"></li>
+                    <li class="footer_media"><img src="../img/facebook.svg" class="social"></li>
+                    <li class="footer_media"><img src="../img/youtube.svg" class="social"></li>
+                </ul>
+            </div>
+            <div class="footer_part">
+                <p class="footer_text">Політика конфіденційності</p>
+                <p class="footer_text">Політика використання файлів cookiev</p>
+                <p class="footer_text"><a href="../pages/contact.html">Контакти</a></p>
+            </div>
+        </div>
+        <hr class="footer_line">
+        <div class="footer_down">
+            <p class="footer_rules">© 2023 LACALUT. Всi права захищенi.</p>
+            <p class="footer_made">Сreated by Level Media</p>
+        </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/reedMoreMenu.js"></script>
+</body>
+</html>

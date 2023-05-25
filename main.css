@@ -1,0 +1,2423 @@
+@import url(/fonts/stylesheet.css);
+
+html {
+    scroll-behavior: smooth;
+}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+hr {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #717171;
+}
+.nav a {
+    color: #FFFFFF;
+}
+.container {
+    max-width: 1199px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.header {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(113deg, rgba(255,255,255,1) 33%, rgba(214,18,30,1) 33%);color: #FFFFFF;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list:not(:last-child) {
+    margin-right: 82px;
+}
+.nav_list {
+    cursor: pointer;
+}
+.logo{
+    margin-right: 42px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    margin-bottom: 120px;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+    }
+.hero_img {
+    width: 45%;
+    z-index: -2;
+}
+.bleeding_img img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hero_img img {
+    height: 100%;
+}
+.error_img img {
+    height: 100%;
+}
+
+.hero_text {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 120px;
+}
+.hero_years {
+    height: 116px;
+    width: 116px;
+    margin-bottom: 60px;
+}
+.hero_line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 56px;
+}
+.hero_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 750;
+    font-size: 48px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.hero_history {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.withLove {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.withLove_part {
+    width: 45%;
+}
+.withLove_style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.withLove_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.withLove_line,
+.contact_line,
+.first_line,
+.benefit_line,
+.complex_list-line,
+.cause_line,
+.blog_first-line,
+.blog_second-line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #D6121E;
+    margin-bottom: 34px;
+}
+.withLove_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 40px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.withLove_info {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #717171;
+    margin-top: 20px;
+}
+.production {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    height: 527px;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+    margin-bottom: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+.production_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.production_logo {
+    margin-bottom: 50px;
+    width: 58px;
+    height: 58px;
+}
+.first {
+    margin-bottom: 160px;
+}
+.first_img {
+    width: 100%;
+}
+.first_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 40px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.first_btn {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 46px;
+    width: 245px;
+    background: #D6121E;
+    cursor: pointer;
+    border: 1px solid #EDEDED;
+    transition: 0.6s;
+}
+.first_btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D6121E;
+    color: #D6121E;
+}
+.first_btn:focus {
+    background: #B0B0B0;
+    color: #FFFFFF;
+    border: none;
+}
+.first_content {
+    display: flex;
+    justify-content: space-between;
+}
+.first_content_part {
+    width: 45%;
+}
+.first_content-text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.first_content-rules {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #717171;
+    margin-top: 34px;
+    margin-bottom: 51px;
+}
+.bleeding {
+    height: 530px;
+    background: linear-gradient(100deg, rgba(214,18,30,1) 55%, rgba(0,0,0,0) 55%);
+    display: flex;
+    margin-bottom: 160px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+.bleeding_part {
+    width: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 120px;
+}
+.bleeding_img {
+    width: 45%;
+    z-index: -2;
+}
+.bleeding_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.bleeding_line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 34px;
+}
+.bleeding_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 57px;
+}
+.bleeding_btn {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 46px;
+    width: 245px;
+    background: #D6121E;
+    border: 1px solid #EDEDED;
+    transition: 0.6s;
+}
+.bleeding_btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D6121E;
+    color: #D6121E;
+}
+.bleeding_btn:focus {
+    background: #B0B0B0;
+    color: #FFFFFF;
+    border: none;
+}
+.benefit {
+    margin-bottom: 160px;
+    position: relative;
+}
+.benefit_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.benefit_cards {
+    box-sizing: border-box;
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+    padding: 0px;
+    width: 580px;
+    height: 276px;
+    background: #FFFFFF;
+    border: 1px solid #B0B0B0;
+}
+.benefit_btn {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 46px;
+    width: 195px;
+    height: 46px;
+    background: #D6121E;
+    border: 1px solid #EDEDED;
+    transition: 0.6s;
+}
+.benefit_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    color: #717171;
+}
+.benefit_cards-text{
+    margin: auto 45px auto 40px;
+}
+.benefit .slick-prev {
+    position: absolute;
+    top: -30%;
+    right: 10%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #B0B0B0;
+    font-size: 0;
+}
+.slick-next::after {
+   content: url(./img/right.svg);
+}
+
+.benefit .slick-next {
+    position: absolute;
+    top: -30%;
+    right: 5%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #B0B0B0;
+    font-size: 0;
+}
+.slick-prev::after {
+    content: url(./img/left.svg);
+}
+.footer {
+    background: #EDEDED;
+    padding-top: 56px;
+    padding-bottom: 47px;
+}
+.footer_line {
+    background: #EDEDED;
+    margin-bottom: 26px;
+    margin-top: 45px;
+}
+.footer_logo {
+    margin-right: 180px;
+}
+.footer_rules {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #717171;
+}
+.footer_made {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #717171;
+}
+.footer_down {
+display: flex;
+justify-content: space-between;
+}
+.footer_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #717171;
+}
+.footer_text:not(:last-child) {
+    margin-bottom: 26px;
+}
+.footer_link {
+    color: #717171;
+    cursor: pointer;
+}
+.footer_link:hover,
+.footer_link:focus {
+    color: #D6121E;
+}
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_part {
+    width: 45%;
+}
+.footer_social {
+    display: flex;
+}
+.footer_media:not(:last-child) {
+    margin-right: 30px;
+}
+.footer_part-media {
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+}
+.active {
+    display: flex;
+    margin-bottom: 148px;
+    justify-content: space-between;
+}
+.active_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 30px;
+}
+.active_part {
+    margin-bottom: auto;
+    margin-top: auto;
+    width: calc(50% - 60px);
+}
+.active_part img {
+    width: 100%;
+}
+.active_btn {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 12px 46px;
+    width: 153px;
+    height: 46px;
+    background: #D6121E;
+    border: 1px solid #EDEDED;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.6s;
+}
+.active_photo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.active_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 30px;
+}
+.active_btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D6121E;
+    color: #D6121E;
+}
+.active_btn:focus {
+    background: #B0B0B0;
+    color: #FFFFFF;
+    border: none;
+}
+.active_list{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #717171;
+    display: flex;
+}
+.active_item:not(:last-child) {
+    margin-right: 30px;
+}
+.active_item {
+    position: relative;
+    padding-bottom: 19px;
+    cursor: pointer;
+}
+.active_item-link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #D6121E;
+    width: 100%;
+    display: block;
+}
+.active_item-text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.active_item-list {
+    padding-left: 15px;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+    position: relative;
+}
+.active_item-list::before {
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    content: "";
+    background: #B0B0B0;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.active_line {
+    background: #DEDEDE;
+    width: 300px;
+    margin-bottom: 19px;
+}
+.complex {
+    display: flex;
+    margin-bottom: 140px;
+    justify-content: space-between;
+}
+.complex_list {
+    flex-basis: calc((100% - 60px) / 3);
+    box-sizing: border-box;
+    border: 1px solid #B0B0B0;
+    width: 373px;
+    height: 352px;
+    padding: 40px;
+}
+.complex_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.complex_list-item {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+.complex_list-item::before {
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    content: "";
+    background: #B0B0B0;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.research {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 142px;
+    padding-left: 0;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+}
+.research_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.research_line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 32px;
+}
+.research_img {
+    width: 45%;
+    z-index: -2;
+}
+.research_text {
+    width: 45%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.research_paragraph{
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+.research_result {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.recommendations {
+    margin-bottom: 140px;
+}
+.rec_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    color: #7E6B6B;
+    margin-bottom: 30px;
+}
+.rec_btn {
+    padding: 12px 46px;
+    width: 204px;
+    height: 46px;
+    background: #D6121E;
+    border: 1px solid #EDEDED;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.rec_btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D6121E;
+    color: #D6121E;
+}
+.rec_btn:focus {
+    background: #B0B0B0;
+    color: #FFFFFF;
+    border: none;
+}
+.rec_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #717171;
+    margin-bottom: 72px;
+}
+.rec_cards {
+    width: 270px;
+    height: 462px;
+    margin-right: 40px;
+}
+.rec_cards-info {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 36px 30px;
+    box-shadow: 0px 2px 6px rgba(36, 36, 36, 0.1);
+}
+.recommendations .slick-prev {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #B0B0B0;
+    font-size: 0;
+}
+.recommendations .slick-next {
+    position: absolute;
+    top: -20%;
+    right: 5%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #B0B0B0;
+    font-size: 0;
+}
+.blog {
+    display: flex;
+    justify-content: flex-end;
+    height: 640px;
+    padding-right: 120px;
+    margin-bottom: 110px;
+    max-width: 1199px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+}
+.blog_header {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.blog_img {
+    z-index: -2;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blog_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.blog_hr {
+    margin-bottom: 56px;
+    width: 162px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+.blog_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20pz;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.blood {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 123px;
+}
+.blood_text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blood_img {
+    width: 45%;
+}
+.blood_hr {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #D6121E;
+    margin-bottom: 33px;
+}
+.blood_title {
+    margin-bottom: 22px;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+}
+.blood_img img {
+    width: 100%;
+}
+.blood_desc {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.cause_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.cause_part {
+    width: 45%;
+    margin-bottom: 120px;
+}
+.cause_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.cause_list {
+    border: 1px solid #B0B0B0;
+    padding: 55px 100px;
+    position: relative;
+    margin-bottom: 120px;
+}
+.cause_list-title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+.cause_list-item {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+    padding-left: 15px;
+    position: relative;
+}
+.cause_list-item::before {
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    content: "";
+    background: #B0B0B0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.cause_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.blog_first {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.blog_first-text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blog_first-img {
+    width: 45%;
+}
+.blog_first-img img {
+    width: 100%;
+}
+.blog_first-title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.blog_first-desc {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.blog_disease {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.blog_disease-title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    margin-bottom: 34px;
+    color: #717171;
+}
+.blog_disease-text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.blog_disease-part {
+    width: 45%;
+}
+.blog_second {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.blog_second-title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    margin-bottom: 22px;
+    color: #D6121E;
+}
+.blog_second-img {
+    width: 45%;
+}
+.blog_second-text {
+    width: 45%;
+}
+.blog_second-img img {
+    width: 100%;
+}
+.blog_second-desc {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.save {
+   margin-bottom: 120px;
+}
+.error {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+    height: 640px;
+    position: relative;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+}
+.error_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.error_line {
+    width: 162px;
+    height: 0px;
+    margin-bottom: 32px;
+    border: 2px solid #FFFFFF;
+}
+.error_img {
+    width: 45%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.prevention_img {
+    width: 45%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.oficial_img {
+    width: 45%;
+    z-index: -2;
+    position: absolute;
+    top: -9%;
+    left: 0;
+}
+.error_text {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.error_desc {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.error_btn {
+    padding: 12px 46px;
+    background: #D6121E;
+    height: 46px;
+    border: 1px solid #EDEDED;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    transition: 0.6s;
+}
+.error_btn:hover {
+    background: #FFFFFF;
+    border: 1px solid #D6121E;
+    color: #D6121E;
+}
+.error_btn:focus {
+    background: #B0B0B0;
+    color: #FFFFFF;
+    border: none;
+}
+.error_link {
+    color: #FFFFFF;
+}
+.error_link:hover,
+.error_link:focus {
+    color: #D6121E;
+}
+.oficial_text,
+.contact_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+}
+.contact_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 40px;
+    color: #D6121E;
+    margin-top: 80px;
+    margin-bottom: 22px;
+}
+.contact_info {
+    background: #F4F4F4;
+    margin-bottom: 160px;
+    margin-top: 60px;
+    display: flex;
+    padding: 44px 58px;
+    justify-content: space-between;
+}
+.contact_info-header {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 32px;
+    text-align: left;
+    color: #717171;
+}
+.contact_tell {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 10px;
+    color: #717171;
+}
+.prevention {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.prevention_desc {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 22px;
+}
+.prevention_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.teeth {
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.teeth_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.teeth_line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #D6121E;
+    margin-bottom: 32px;
+}
+.teeth_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+    width: 45%;
+}
+.teeth_before {
+    margin-bottom: 33px;
+    display: flex;
+}
+.teeth_img {
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.teeth_text-info {
+    width: 45%;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+    width: 45%;
+}
+.teeth_info {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 33px;
+}
+.give_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: #D6121E;
+    margin-bottom: 120px;
+}
+.give_list {
+    padding-left: 15px;
+    position: relative;
+}
+.give_list::before {
+    border-radius: 50%;
+    height: 6px;
+    width: 6px;
+    content: "";
+    background: #B0B0B0;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.product {
+    margin-bottom: 160px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.side {
+    width: 290px;
+    margin-right: 20px;
+}
+.side_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #717171;
+    margin-bottom: 34px;
+}
+.side_title-list {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #717171;
+    position: relative;
+    margin-bottom: 16px;
+    cursor: pointer;
+    display: table;
+    white-space: nowrap;
+}
+.side_list:hover,
+.side_list:focus {
+    color: #D6121E;
+}
+#myBtn:after {
+    height: 15px;
+    width: 15px;
+    content: url(./img/Icon.svg);
+    position: absolute;
+    top: 10%;
+    right: -24px;
+    background: transparent;
+}
+.side_list-more {
+    margin-left: 40px;
+}
+.side_list-title {
+    margin-left: 20px;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+.side_list {
+    margin-bottom: 60px;
+}
+.product_main {
+    display: flex;
+    align-items: center;
+    height: 413px;
+    margin-bottom: 85px;
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+}
+.baner2 {
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(0, 144, 141, 1) 45%);
+}
+.baner3 {
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(0, 93, 155, 1) 45%);
+}
+.baner4 {
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(33, 185, 229, 1) 45%);
+}
+.baner5 {
+    background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(239, 143, 184, 1) 45%);
+}
+.product_img {
+    width: 45%;
+    z-index: -2;
+    height: 100%;
+}
+.product_text {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.side_product-indent {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.product_front {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-start;
+}
+.product_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #717171;
+    margin-bottom: 70px;
+}
+.product-items {
+    display: flex;
+    margin-bottom: 85px;
+}
+.product_cards {
+    margin-right: 40px;
+    width: 270px;
+    height: 462px;
+}
+.buy {
+    width: 45%;
+    margin-top: 82px;
+    margin-bottom: 70px;
+}
+.buy_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 32px;
+    line-height: 36px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.buy_line {
+    width: 162px;
+    height: 0px;
+    border: 2px solid #D6121E;
+    margin-bottom: 80px;
+}
+.buy_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 77px;
+}
+.buy_list-item {
+    margin-right: 133px;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 70px;
+}
+.buy_list-item:nth-child(4n) {
+    margin-right: 0;
+}
+.product_toothpaste {
+    position: relative;
+    margin-bottom: 84px;
+}
+.product_toothpaste-text {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    margin-top: 168px;
+}
+.product_toothpaste_title {
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 50px;
+    color: #D6121E;
+    margin-bottom: 22px;
+}
+.mobile-menu {
+    display: none;
+}
+.mobile-menu-btn {
+    display: none;
+}
+
+@media only screen and (max-width: 1439px) {
+    .container {
+        max-width: 768px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .benefit .slick-prev {
+        height: 24px;
+        width: 24px;
+    }
+    .benefit .slick-next {
+        height: 24px;
+        width: 24px;
+    }
+    .hero,
+    .production,
+    .bleeding {
+        height: 460px;
+        margin-bottom: 60px;
+        width: 768px;
+    }
+    .hero_years {
+        height: 58px;
+        width: 58px;
+        margin-bottom: 30px;
+    }
+    .hero_title {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    .hero_history {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .hero_line {
+        width: 80px;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 24px;
+    }
+    .withLove_title {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .nav_list:not(:last-child) {
+        margin-right: 26px;
+    }
+    .header {
+        height: 54px;
+        font-size: 14px;
+        line-height: 14px;
+        white-space: nowrap; 
+    }
+    .logo {
+        margin-right: 10px;
+    }
+    .withLove_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .withLove_info {
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+    .withLove_img {
+        width: 100%;
+    }
+    .withLove_line, .contact_line, .first_line, .benefit_line, .complex_list-line, .cause_line, .blog_first-line, .blog_second-line {
+        width: 80px;
+        border: 1px solid #D6121E;
+        margin-bottom: 20px;
+    }
+    .withLove {
+        margin-bottom: 60px;
+    }
+    .production_logo {
+        margin-bottom: 24px;
+        width: 30px;
+        height: 30px;
+    }
+    .production_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .hero_text {
+        padding-right: 60px;
+    }
+    .first_title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .first_content-text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .first_content-rules {
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .first_btn, .bleeding_btn {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 8px 20px;
+        width: 160px;
+    }
+    .first {
+        margin-bottom: 80px;
+    }
+    .bleeding_title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .bleeding_line {
+        width: 80px;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 16px;
+    }
+    .bleeding_text {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 30px;
+    }
+    .benefit_cards-text {
+        margin: auto 15px;
+    }
+    .benefit_cards {
+        margin-right: 15px;
+        width: 280px;
+        height: 140px;
+    }
+    .benefit_text {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    .benefit_btn {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 0px 6px;
+        width: 80px;
+        height: 20px;
+    }
+    .benefit_cards img {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .multiple-items {
+        display: flex;
+    }
+    .bleeding_part {
+        padding-left: 60px;
+    }
+    .benefit {
+        margin-bottom: 80px;
+    }
+    .footer_line {
+        margin-bottom: 12px;
+        margin-top: 20px;
+    }
+    .footer_made {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer_text:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    .footer_text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer_media:not(:last-child) {
+        margin-right: 10px;
+    }
+    .footer_logo {
+        margin-right: 60px;
+    }
+    .research {
+        margin-bottom: 70px;
+    }
+    .complex_list-item {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+        padding-left: 14px;
+    }
+    .complex_title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .complex_list {
+        flex-basis: calc((100% - 20px) / 3);
+        width: 160px;
+        height: 240px;
+        padding: 10px;
+    }
+    .active_title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .active_item:not(:last-child) {
+        margin-right: 10px;
+    }
+    .active_item {
+        padding-bottom: 9px;
+    }
+    .active_item-text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .active_item-list {
+        padding-left: 10px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .active_btn {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0 15px;
+        width: 80px;
+        height: 24px;
+        margin-top: 16px;
+    }
+    .research_title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .research_line {
+        width: 80px;
+        border: 1px solid #FFFFFF;
+        margin-bottom: 16px;
+    }
+    .research_paragraph {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 20px;
+    }
+    .active_photo img {
+        width: 33%;
+    }
+    .blog_hr {
+        margin-bottom: 28px;
+        width: 80px;
+        border: 1px solid #FFFFFF;
+    }
+    .blog_title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .blog {
+        padding-right: 45px;
+        margin-bottom: 50px;
+    }
+    .blood_title {
+        margin-bottom: 14px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blood_hr {
+        width: 80px;
+        border: 1px solid #D6121E;
+        margin-bottom: 16px;
+    }
+    .blood_desc {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .blood {
+        margin-bottom: 60px;
+    }
+    .cause_title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .cause_text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .cause_part {
+        margin-bottom: 60px;
+    }
+    .cause_list {
+        padding: 20px 50px;
+        margin-bottom: 60px;
+    }
+    .cause_list-title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .cause_list-item {
+        font-size: 16px;
+        line-height: 20px;
+        padding-left: 10px;
+    }
+    .blog_first-title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .blog_first-desc {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .blog_first {
+        margin-bottom: 60px;
+    }
+    .blog_disease-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .blog_disease-title {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .blog_disease {
+        margin-bottom: 60px;
+    }
+    .blog_second-title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .blog_second-desc {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .blog_second {
+        margin-bottom: 60px;
+    }
+    .blog {
+        height: 318px;
+    }
+    .blog_img img {
+        width: auto;
+        padding-left: 0;
+        height: 100%;
+    }
+    .buy_list {
+        margin-bottom: 45px;
+    }
+    .buy_list-item:nth-child(4n) {
+        margin-right: 20px;
+    }
+    .buy_list-item {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .contact_info {
+        background: #F4F4F4;
+        margin-bottom: 80px;
+        margin-top: 30px;
+        display: flex;
+        padding: 10px 12px;
+        justify-content: space-between;
+    }
+    .contact_info-header {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 22px;
+    }
+    .contact_tell {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+    .error_title {
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 10px;
+    }
+    .error_line {
+        width: 80px;
+        margin-bottom: 15px;
+        border: 1px solid #FFFFFF;
+    }
+    .error_desc {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px;
+    }
+    .error_btn {
+        padding: 6px 20px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .error {
+        margin-bottom: 60px;
+    }
+    .teeth_text-info {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .give_title {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .prevention_title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .teeth_img img {
+        width: 100%;
+    }
+    .teeth_title {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .teeth_line {
+        width: 80px;
+        border: 1px solid #D6121E;
+        margin-bottom: 16px;
+    }
+    .teeth_text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .teeth_info {
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 16px;
+    }
+    .teeth {
+        margin-bottom: 60px;
+    }
+    .oficial_text, .contact_text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .product-items {
+        margin-bottom: 60px;
+    }
+    .rec_text {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 16px;
+    }
+    .rec_btn {
+        padding: 0px 10px;
+        width: 120px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .rec_cards-info {
+        padding: 10px 14px;
+    }
+    .product_cards {
+        margin-right: 15px;
+        width: 210px;
+        height: 290px;
+    }
+    .product_cards img {
+        width: 100%;
+    }
+    .side {
+        display: none;
+    }
+    .product_title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 35px;
+    }
+    .product {
+        margin-bottom: 60px;
+        margin-top: 0px;
+    }
+    .product_img {
+        width: 50%;
+    }
+
+    .product_toothpaste-text {
+        margin-top: 110px;
+    }
+    .product_toothpaste_title {
+        font-size: 36px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+    .active {
+        margin-bottom: 70px;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        height: 100%;
+        top: -105%;
+        z-index: 4;
+        width: 100%;
+        background-color: white;
+        right: 0;
+        transition-duration: 0.9s;
+      }
+      .mobile-menu.is-open {
+        top: 0;
+      }
+      .mobile-menu-btn {
+        display: block;
+        border: none;
+        cursor: pointer;
+        background: transparent;
+      }
+      .is-open .icon-close {
+        display: block;
+      }
+    .mobile_header {
+        height: 46px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background: linear-gradient(113deg, rgba(255,255,255,1) 33%, rgba(214,18,30,1) 33%);
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+    .menu_list {
+        padding: 50px 24px;
+    }
+    .mobile_header_logo {
+        display: flex;
+        width: 124px;
+        height: 28px;
+        margin-top: 9px;
+        align-items: center;
+    }
+    .mobile_header_logo img {
+        margin-right: 10px;
+    }
+    .container {
+        max-width: 320px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav {
+        display: none;
+    }
+    .withLove {
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    .withLove_part {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .withLove_title {
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .withLove_text {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .first_content {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    .first_content_part {
+        width: 100%;
+    }
+    .first_btn, .bleeding_btn {
+        font-size: 16px;
+        line-height: 10px;
+        padding: 10px;
+        width: 195px;
+        height: 38px;
+    }
+    .footer_part {
+        width: 100%;
+        margin-top: 32px;
+    }
+    .footer_part-media {
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer_contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_down {
+        flex-direction: column;
+    }
+    .footer_logo {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .footer_line {
+        margin-bottom: 30px;
+        margin-top: 24px;
+    }
+    .footer_rules {
+        margin-bottom: 18px;
+    }
+    .hero_img img {
+        /* height: 50%; production hero */
+         height: 100%;
+        width: 100%;
+    }
+    .hero {
+        height: 460px;
+        margin-bottom: 60px;
+        width: 320px;
+        flex-direction: column;
+        position: relative;
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+    }
+    .production {
+        height: 420px;
+        margin-bottom: 40px;
+        width: 320px;
+        flex-direction: column;
+        position: relative;
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+    }
+    .bleeding {
+        height: auto;
+        margin-bottom: 60px;
+        width: 320px;
+        flex-direction: column;
+        position: relative;
+        background: linear-gradient(10deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+    }
+    .production_blog-img {
+        width: 100%;
+        height: 100%;
+    }
+    .hero_img {
+        width: 100%;
+    }
+    .logo {
+        width: 84px;
+        height: 19px;
+        margin-right: 12px;
+    }
+    .madeIn{
+        width: 29px;
+        height: 29px;
+    }
+    .header {
+        background: linear-gradient(113deg, rgba(255,255,255,1) 55%, rgba(214,18,30,1) 55%);
+        height: 46px;
+    }
+    .hero_text {
+        padding-right: 0;
+        width: 100%;
+        position: absolute;
+        bottom: 10%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .benefit .slick-prev {
+        right: 15%;
+    }
+    .benefit_cards {
+        margin-right: 30px;
+        width: 240px;
+    }
+    .benefit_cards img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .benefit_title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .bleeding_part {
+        width: auto;
+        margin-bottom: 100%;
+        padding: 50px 20px;
+    }
+    .bleeding_img img {
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 320px;
+    }
+    .recommendations .slick-prev {
+        top: -20%;
+        right: 15%;
+        height: 25px;
+        width: 25px;
+    }
+        .recommendations .slick-next {
+        top: -20%;
+        right: 0%;
+        height: 25px;
+        width: 25px;
+    }
+    .complex {
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    .complex_list {
+        width: auto;
+    }
+    .active {
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    .active_part {
+        width: 100%;
+    }
+    .active_photo {
+        margin-top: 10px;
+    }
+    .active_title {
+        margin-top: 15px;
+    }
+    .recommendations {
+        margin-bottom: 60px;
+    }
+    .research {
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+        flex-direction: column;
+    }
+    .research_text {
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: 20%;
+    }
+    .research_img {
+        width: 100%;
+        margin-bottom: 40%;
+    }
+    .research_img img  {
+        width: 100%;
+    }
+    .blog_first {
+        flex-direction: column;
+    }
+    .blog_first-text {
+        width: 100%;
+    }
+    .blog_first-img {
+        width: 100%;
+    }
+    .blood_img {
+        width: 100%;
+    }
+    .blood {
+        flex-direction: column;
+    }
+    .blood_text {
+        width: 100%;
+    }
+    .cause_part {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .blog_second-img {
+        width: 100%;
+    }
+    .blog_second-text {
+        width: 100%;
+    }
+    .blog_second {
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    .blog_disease-part {
+        width: 100%;
+    }
+    .blog_disease {
+        flex-direction: column;
+    }
+    .cause_list {
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+    .cause_list-title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .cause_list-item {
+        font-size: 10px;
+        line-height: 12px;
+        padding-left: 10px;
+    }
+    .blog {
+        width: auto;
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+        flex-direction: column;
+        height: 460px;
+    }
+    .blog_header {
+        width: 100%;
+    }
+    .blog_header {
+        width: 100%;
+        height: 50%;
+    }
+    .blog_img img {
+        width: 100%;
+        padding-left: 0;
+        height: 100%;
+    }
+    .blog_img {
+        z-index: -2;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .buy {
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+    .buy_title {
+        font-size: 26px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+    .buy_line {
+        width: 80px;
+        border: 1px solid #D6121E;
+        margin-bottom: 40px;
+    }
+    .buy_list {
+        margin-bottom: 20px;
+    }
+    .buy_list-item img {
+        width: 100%;
+    }
+    .buy_list-item {
+        margin-right: 133px;
+        width: 120px;
+        height: 40px;
+        margin-bottom: 70px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .buy_list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+    .contact_title {
+        font-size: 28px;
+        margin-top: 36px;
+        margin-bottom: 16px;
+    }
+    .oficial_text, .contact_text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .contact_info {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        padding: 10px 12px;
+        flex-direction: column;
+    }
+    .contact_info-header {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+    .error {
+        margin-bottom: 60px;
+        height: 480px;
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .error_text {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .error_img {
+        width: 100%;
+    }
+    .error_img img {
+        width: 100%;
+    }
+    .teeth_text-info {
+        width: 100%;
+    }
+    .teeth {
+        margin-bottom: 60px;
+        flex-direction: column;
+    }
+    .teeth_text {
+        width: 100%;
+    }
+    .teeth_img {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .prevention_img {
+        width: 100%;
+    }
+    .prevention_img img {
+        width: 100%;
+    }
+    .oficial_img {
+        width: 100%;
+    }
+    .oficial_img img {
+        width: 100%;
+    }
+    .product_main {
+        height: 460px;
+        margin-bottom: 45px;
+        background: linear-gradient(188deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
+        flex-direction: column;
+    }
+    .product {
+        text-align: center;
+        justify-content: center;
+    }
+    .product-items {
+        margin-bottom: 35px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .product_cards {
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .product_front {
+        flex-direction: column;
+        align-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .product_img {
+        width: 100%;
+        height: 50%;
+    }
+    .product_img img {
+        width: 100%;
+    }
+    .product_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .side_product-indent {
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: left;
+    }
+    .product_toothpaste-text {
+        margin-top: 30px;
+    }
+    .product_toothpaste_title {
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .product_toothpaste-text {
+        top: 0;
+        left: 20px;
+        margin-top: 168px;
+    }
+}
+
+

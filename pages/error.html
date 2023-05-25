@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacalut</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <header class="header container">
+        <div>
+            <a href="../index.html"><img src="../img/logo.svg" class="logo"/></a>
+            <img src="../img/Made in.svg" class="madeIn"/>
+        </div>
+        <nav>
+        <ul class="nav">
+            <li class="nav_list"><a href="../pages/contact.html">Продукти</a></li>
+            <li class="nav_list"><a href="../pages/history.html">Про Lacalut</a></li>
+            <li class="nav_list">Корисно знати</li>
+            <li class="nav_list">Дітям</li>
+            <li class="nav_list">Купити</li>
+        </ul>
+    </nav>
+
+    <button
+        class="mobile-menu-btn open"
+        aria-expanded="false"
+        aria-controls="menu-container"
+        menu-button-open>
+        <img src="../img/menu.svg">
+      </button>
+
+
+    <div class="mobile-menu" id="menu-container" data-menu>
+        <div class="mobile_header">
+            <div class="mobile_header_logo">                
+                <a href="../index.html"><img src="../img/logo.svg" class="logo"/></a>
+            <img src="../img/Made in.svg" class="madeIn"/>
+            </div>
+            <button
+                class="mobile-menu-btn close"
+                aria-expanded="false"
+                aria-controls="menu-container"
+                menu-button-close>
+                <img src="../img/close.svg" alt="menu" class="icon-close" />
+            </button>
+        </div>
+        
+        <ul class="side_list menu_list">
+       
+            <li onclick="myFunction()" id="myBtn" class="side_title-list"><a href="../pages/contact.html">Продукти</a></li>
+            <span id="dots"></span><span id="more">
+                <p class="side_list-title">Застосування</p>
+                <ul class="side_list">
+                    <li class="side_title-list side_list-more">Кровоточивість ясен</li>
+                    <li class="side_title-list side_list-more">Чутливість зубів</li>
+                    <li class="side_title-list side_list-more">Дбайливе вибілювання</li>
+                    <li class="side_title-list side_list-more">Профілактика карієсу</li>
+                    <li class="side_title-list side_list-more">Захист на кожен день</li>
+                    <li class="side_title-list side_list-more">Для дітей</li>
+                </ul>
+            </span>
+            
+            <li class="side_title-list"><a href="../pages/history.html">Про Lacalut</a></li>
+            <li class="side_title-list">Корисно знати</li>
+            <li class="side_title-list">Дітям</li>
+            <li class="side_title-list">Купити</li>
+        </ul>
+
+    </div>
+
+   </header>
+
+<main>
+    <section class="error container">
+        <div class="error_img">
+            <img src="../img/error.jpg">
+        </div>
+        <div class="error_text">
+            <h2 class="error_title">От халепа!</h2>
+            <hr class="error_line">
+            <p class="error_desc">Ми відволіклися на вашу яскраву усмішку і загубили цю сторінку.</p>
+            <button class="error_btn"><a href="../index.html" class="error_link">На головну</a></button>
+        </div>
+    </section>
+</main>
+
+    <footer class="container footer">
+        <div class="footer_contact">
+            <div class="footer_part-media">
+                <div><a href="../index.html"><img class="footer_logo" src="../img/logo.svg"></a></div>
+                
+                <ul class="footer_social">
+                    <li class="footer_media"><img src="../img/instagram.svg" class="social"></li>
+                    <li class="footer_media"><img src="../img/facebook.svg" class="social"></li>
+                    <li class="footer_media"><img src="../img/youtube.svg" class="social"></li>
+                </ul>
+            </div>
+            <div class="footer_part">
+                <p class="footer_text">Політика конфіденційності</p>
+                <p class="footer_text">Політика використання файлів cookiev</p>
+                <p class="footer_text"><a href="../pages/contact.html" class="footer_link">Контакти</a></p>
+            </div>
+        </div>
+        <hr class="footer_line">
+        <div class="footer_down">
+            <p class="footer_rules">© 2023 LACALUT. Всi права захищенi.</p>
+            <p class="footer_made">Сreated by Level Media</p>
+        </div>
+    </footer>
+    <script src="../js/menu.js"></script>
+    <script src="../js/reedMoreMenu.js"></script>
+</body>
+</html>

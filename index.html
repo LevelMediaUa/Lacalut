@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lacalut</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+    <body>
+        <header class="header container">
+            <div>
+                <a href="index.html"><img src="./img/logo.svg" class="logo"/></a>
+                <img src="./img/Made in.svg" class="madeIn"/>
+            </div>
+            <nav>
+            <ul class="nav">
+                <li class="nav_list"><a href="./pages/article.html">Продукти</a></li>
+                <li class="nav_list"><a href="./pages/history.html">Про Lacalut</a></li>
+                <li class="nav_list">Корисно знати</li>
+                <li class="nav_list">Дітям</li>
+                <li class="nav_list">Купити</li>
+            </ul>
+        </nav>
+
+        <button
+            class="mobile-menu-btn open"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            menu-button-open>
+            <img src="./img/menu.svg">
+          </button>
+
+
+        <div class="mobile-menu" id="menu-container" data-menu>
+            <div class="mobile_header">
+                <div class="mobile_header_logo">                
+                    <a href="index.html"><img src="./img/logo.svg" class="logo"/></a>
+                <img src="./img/Made in.svg" class="madeIn"/>
+                </div>
+                <button
+                    class="mobile-menu-btn close"
+                    aria-expanded="false"
+                    aria-controls="menu-container"
+                    menu-button-close>
+                    <img src="./img/close.svg" alt="menu" class="icon-close" />
+                </button>
+            </div>
+            
+            <ul class="side_list menu_list">
+           
+                <li onclick="myFunction()" id="myBtn" class="side_title-list"><a href="./pages/article.html">Продукти</a></li>
+                <span id="dots"></span><span id="more">
+                    <p class="side_list-title">Застосування</p>
+                    <ul class="side_list">
+                        <li class="side_title-list side_list-more">Кровоточивість ясен</li>
+                        <li class="side_title-list side_list-more">Чутливість зубів</li>
+                        <li class="side_title-list side_list-more">Дбайливе вибілювання</li>
+                        <li class="side_title-list side_list-more">Профілактика карієсу</li>
+                        <li class="side_title-list side_list-more">Захист на кожен день</li>
+                        <li class="side_title-list side_list-more">Для дітей</li>
+                    </ul>
+                </span>
+                
+                <li class="side_title-list"><a href="./pages/history.html">Про Lacalut</a></li>
+                <li class="side_title-list">Корисно знати</li>
+                <li class="side_title-list">Дітям</li>
+                <li class="side_title-list">Купити</li>
+            </ul>
+
+        </div>
+
+
+
+
+        </header>
+    <main>
+        <section class="hero">
+            <div class="hero_img">
+                <img src="./img/hero.jpg">
+            </div>
+            <div class="hero_text">
+                <img src="./img/98 year.svg" class="hero_years">
+                <h1 class="hero_title">LACALUT - наука про здорові зуби та ясна</h1>
+                <hr class="hero_line">
+                <p class="hero_history">Історія з 1925 року</p>
+            </div>
+        </section>
+
+        <section class="withLove container">
+            <div class="withLove_part">
+                <h2 class="withLove_title">З любов’ю до здорової усмішки – з пристрастю до справи упродовж вже майже 100 років
+                </h2>
+                <hr class="withLove_line">
+                <p class="withLove_text">Формула та рецептура зубної пасти Lacalut вперше були розроблені та запатентовані ще у 1925 році. На сьогодні Lacalut є одним із найстаріших німецьких брендів у сфері засобів стоматологічного догляду. Упродовж вже майже 100 років з відданістю та пристрастю до власної справи, виробники Lacalut впроваджують у виробництво продуктів інновації і сучасні технології. Регулярно застосовуючи засоби Lacalut, ви можете бути впевнені в якісному та ефективному догляді за ротовою порожниною. </p>
+            </div>
+            <div class="withLove_part">
+                <img class="withLove_img" src="./img/withLove.webp">
+                <p class="withLove_info">Завод фармацевтичного концерну Dr.Theiss Naturwaren, якому належить виробництво бренду Lacalut</p>
+            </div>
+        </section>
+
+        <section class="container withLove">
+            <div class="withLove_part">
+                <img src="./img/uniqueness.jpg"  class="withLove_img">                
+            </div>
+            <div class="withLove_part  withLove_style">
+                <h2 class="withLove_title">Унікальна формула. Стандарти німецької якості. Фармацевтичне виробництво.
+                </h2>
+                <hr class="withLove_line">
+                <p class="withLove_text">Чисельні дослідження підтверджують ефективність засобів Lacalut при запаленні ясен та для профілактику карієсу. Ефективність Lacalut базується на принципі, що здорові та міцні ясна є запорукою здоров’я та міцності зубів.
+                 </p>
+            </div>
+        </section>
+
+        <section class="production">
+            <div class="hero_img"><img src="./img/prod.jpg" class="production_blog-img"></div>
+            <div class="hero_text">
+                <img src="./img/Made in.svg" class="production_logo">
+                <p class="production_text">Продукція Lacalut виробляється на фармацевтичному заводі, що розташований в м. Хомбург, земля Саар, Німеччина.<br><br>
+                Унікальна формула Lacalut® aktiv, що діє одразу після застосування, а також знак якості «Вироблено в Німеччині» і стандарти Європейської Фармакопеї GMP, що застосовуються до виробництва лікарських засобів, виділяють Lacalut® серед інших брендів по догляду за зубами.</p>
+            </div>
+        </section>
+
+        <section class="container first">
+            <h2 class="first_title">LACALUT - бренд №1 в Україні*</h2>
+            <div class="first_content">
+                <div class="first_content_part">
+                    <hr class="first_line">
+                    <p class="first_content-text">Майже половина зубних паст, що продаються з аптек України, належить Lacalut. Історія Lacalut в Україні почалася у 1994 році. Упродовж 29 років Lacalut отримував винагороди, які підтверджували його визнання та уподобання серед споживачів.<br>
+                        У 2022 р. Lacalut здобув титул «Зубна паста року», отримавши найбільшу кількість голосів підтримки від українських споживачів у Всеукраїнському національному проекті «Українська Народна Премія». Проект спрямований на визначення найкращих товарів та послуг серед представлених на українському ринку.<br>
+                        Асоціація Стоматологів України рекомендує Lacalut.</p>
+                    <p class="first_content-rules">*Згідно даних роздрібного аудиту Системи дослідження фармацевтичного ринку «Фармексплорер», що є статистичним, аналітичним продуктом на ринку роздрібної реалізації лікарських засобів в Україні, за підсумками 2022 року сумарно продажі в упаковках бренду «Лакалут», що відносяться до класу Зубні пасти в категорії Косметика.</p>
+                </div>
+                <div class="first_content_part"><img src="./img/first.jpg" class="first_img"></div>
+            </div>
+            <button class="first_btn">Дізнатися більше</button>
+        </section>
+
+        <section class="bleeding">
+            <div class="bleeding_part">
+                <h2 class="bleeding_title">Кровоточивість ясен – причини та лікування</h2>
+                <hr class="bleeding_line">
+                <p class="bleeding_text">Якщо ви помічаєте регулярну кровоточивість ясен, візит до стоматолога є обов’язковим. Дізнайтеся з нашої статті, чому важливо лікувати кровоточивість ясен.</p>
+                <button class="bleeding_btn">Дізнатися більше</button>
+            </div>
+            <div class="bleeding_img"><img src="./img/bleeding.webp"></div>
+        </section>
+
+        <section class="container benefit">
+            <h3 class="benefit_title">Корисно знати</h3>
+            <hr class="benefit_line">
+
+            <div class="multiple-items">
+                <div class="benefit_cards">
+                  <div><img src="./img/benefit1.jpg"></div>
+                  <div class="benefit_cards-text"><p class="benefit_text">7 порад щодо правильної гігієни порожнини рота</p><button class="benefit_btn">Детальніше</button></div>
+                </div>
+                <div class="benefit_cards">
+                    <div><img src="./img/benefit2.jpg"></div>
+                    <div class="benefit_cards-text"><p class="benefit_text">Профілактика – найкращий захист ваших зубів</p><button class="benefit_btn">Детальніше</button></div>
+                </div>
+              </div>
+        </section>
+
+    </main>
+    <footer class="container footer">
+        <div class="footer_contact">
+            <div class="footer_part-media">
+                <div><a href="../index.html"><img class="footer_logo" src="./img/logo.svg"></a></div>
+                <ul class="footer_social">
+                    <li class="footer_media"><img src="/img/instagram.svg" class="social"></li>
+                    <li class="footer_media"><img src="/img/facebook.svg" class="social"></li>
+                    <li class="footer_media"><img src="/img/youtube.svg" class="social"></li>
+                </ul>
+            </div>
+            <div class="footer_part">
+                <p class="footer_text">Політика конфіденційності</p>
+                <p class="footer_text">Політика використання файлів cookiev</p>
+                <p class="footer_text"><a href="./pages/contact.html" class="footer_link">Контакти</a></p>
+            </div>
+        </div>
+        <hr class="footer_line">
+        <div class="footer_down">
+            <p class="footer_rules">© 2023 LACALUT. Всi права захищенi.</p>
+            <p class="footer_made">Сreated by Level Media</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/reedMoreMenu.js"></script>
+</body>
+</html>
