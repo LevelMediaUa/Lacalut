@@ -13,3 +13,6 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   }
+
+
+  // видалити
