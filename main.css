@@ -1665,6 +1665,25 @@ justify-content: space-between;
   display: block;
 }
 
+.kids {
+    height: 880px;
+    display: flex;
+    background-image: url(./img/kids.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kids_text{
+    width: 45%;
+    margin-top: 5%;
+    font-family: 'Avenir Next Cyr';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #717171;
+
+}
+
 .dropdown-content a:hover {color: #D6121E;}
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -1673,6 +1692,12 @@ justify-content: space-between;
 
 
 @media only screen and (max-width: 1439px) {
+    .kids_text{
+        width: 50%;
+        margin-top: 3%;
+        font-size: 16px;
+        line-height: 16px;
+    }
     .product_toothpaste .product_img img {
         width: 100%;
     } 
@@ -2189,6 +2214,17 @@ justify-content: space-between;
 
 
 @media only screen and (max-width: 767px) {
+    .kids_text {
+        width: 100%;
+        margin-top: 3%;
+        font-size: 16px;
+        line-height: 16px;
+        padding-bottom: 70%;
+    }
+    .kids {
+        height: auto;
+        background-position: bottom;
+    }
     .product_toothpaste {
         margin-bottom: 40px;
     }
@@ -2711,3 +2747,4 @@ justify-content: space-between;
         margin-top: 40px;
     }
 }
+
