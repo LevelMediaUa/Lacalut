@@ -221,6 +221,7 @@ a {
     font-size: 18px;
     line-height: 22px;
     overflow: hidden;
+    box-shadow: 0px 3px 4px rgba(36, 36, 36, 0.14);
 }
 .nav {
     display: flex;
@@ -236,6 +237,7 @@ a {
 .logo{
     margin-right: 42px;
 }
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -245,7 +247,7 @@ a {
     width: 1440px;
     margin-bottom: 120px;
     background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
-    }
+}
 .hero_img {
     width: 45%;
     z-index: -2;
@@ -262,14 +264,13 @@ a {
 .error_img img {
     height: 100%;
 }
-
 .hero_text {
     width: 45%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    padding-right: 120px;
+    /* padding-right: 120px; */
 }
 .hero_years {
     height: 116px;
@@ -960,7 +961,6 @@ justify-content: space-between;
     max-width: 1199px;
     margin-left: auto;
     margin-right: auto;
-    /* position: relative; */
     background: linear-gradient(100deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
 }
 .blog_header {
@@ -973,9 +973,6 @@ justify-content: space-between;
 .blog_img {
     z-index: -2;
     width: 45%;
-    /* position: absolute;
-    top: 0;
-    left: 0; */
 }
 .blog_title {
     font-family: 'Avenir Next Cyr';
@@ -1302,6 +1299,9 @@ justify-content: space-between;
     line-height: 26px;
     color: #717171;
 }
+.product2_text {
+    margin-left: 60px;
+}
 .contact_title {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
@@ -1605,13 +1605,15 @@ justify-content: space-between;
 .product_toothpaste {
     position: relative;
     margin-bottom: 84px;
+    width: 100%;
 }
-.product_toothpaste-text {
+/* .product_toothpaste-text {
     position: absolute;
     top: 0;
     left: 60px;
     margin-top: 168px;
-}
+} */
+
 .product_toothpaste_title {
     font-family: 'Avenir Next Cyr';
     font-style: normal;
@@ -1665,7 +1667,58 @@ justify-content: space-between;
   text-decoration: none;
   display: block;
 }
-
+.heroBg {
+    display: none;
+}
+.heroBgImg {
+    display: block;
+    z-index: -5;
+    width: 55%;
+}
+.product2 {
+    background-image: url(./img/toothpaste.jpg);
+    height: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+}
+.product3 {
+    height: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+    background-image: url(./img/toothpaste2.jpg);
+}
+.product4 {
+    height: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+    background-image: url(./img/toothpaste4.jpg);
+}
+.product5 {
+    height: 415px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 85px;
+    background-image: url(./img/toothpaste5.jpg);
+}
 .kids {
     height: 880px;
     display: flex;
@@ -1682,7 +1735,6 @@ justify-content: space-between;
     font-size: 18px;
     line-height: 26px;
     color: #717171;
-
 }
 
 .dropdown-content a:hover {color: #D6121E;}
@@ -1698,12 +1750,6 @@ justify-content: space-between;
         margin-top: 3%;
         font-size: 16px;
         line-height: 16px;
-    }
-    .product_toothpaste .product_img img {
-        width: 100%;
-    } 
-    .product_toothpaste .product_img {
-        width: 100%;
     }
     .blog_img {
         width: 50%;
@@ -1752,7 +1798,7 @@ justify-content: space-between;
         width: 80px;
         border: 1px solid #FFFFFF;
         margin-bottom: 24px;
-        padding-left: 20px;
+        margin-left: 20px;
         padding-right: 20px;
     }
     .withLove_title {
@@ -1785,9 +1831,10 @@ justify-content: space-between;
         width: 100%;
     }
     .withLove_line, .contact_line, .first_line, .benefit_line, .complex_list-line, .cause_line, .blog_first-line, .blog_second-line {
-        width: 80px;
+        width: 120px;
         border: 1px solid #D6121E;
-        margin-bottom: 20px;
+        margin-bottom: 37px;
+        
     }
     .withLove {
         margin-bottom: 60px;
@@ -1805,9 +1852,9 @@ justify-content: space-between;
         padding-right: 20px;
         font-size: 14px;
     }
-    .hero_text {
+    /* .hero_text {
         padding-right: 60px;
-    }
+    } */
     .first_title {
         font-size: 18px;
         line-height: 20px;
@@ -2199,9 +2246,6 @@ justify-content: space-between;
         margin-bottom: 60px;
         margin-top: 0px;
     }
-    .product_toothpaste-text {
-        margin-top: 110px;
-    }
     .product_toothpaste_title {
         font-size: 36px;
         line-height: 38px;
@@ -2215,6 +2259,23 @@ justify-content: space-between;
 
 
 @media only screen and (max-width: 767px) {
+    .heroBg {
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        height: 50%;
+        width: 100%;
+        background-image: url(./img/hero.jpg);
+        background-repeat: no-repeat;
+        z-index: -5;
+        background-position: center;
+    }
+    .heroBgImg {
+        display: none;
+    }
+    .product2_text {
+        margin-left: 25px;
+    }
     .research_result {
         font-weight: 300;
         font-size: 8px;
@@ -2234,6 +2295,7 @@ justify-content: space-between;
     }
     .product_toothpaste {
         margin-bottom: 40px;
+        width: 100%;
     }
     .product_img img {
         width: 100%;
@@ -2282,6 +2344,7 @@ justify-content: space-between;
         padding-left: 15px;
         padding-right: 15px;
         background: linear-gradient(113deg, rgba(255,255,255,1) 33%, rgba(214,18,30,1) 33%);
+        box-shadow: 0px 3px 4px rgba(36, 36, 36, 0.14);
         color: #FFFFFF;
         display: flex;
         justify-content: space-between;
@@ -2371,19 +2434,16 @@ justify-content: space-between;
         margin-bottom: 18px;
     }
     .hero_img img {
-         /* height: 100%; */
         width: 100%;
     }
     .hero {
         min-height: 620px;
         margin-bottom: 60px;
         width: auto;
-        /* flex-direction: column; */
         position: relative;
         background: linear-gradient(186deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
     }
     .production {
-        /* height: 420px; */
         min-height: 620px;
         margin-bottom: 40px;
         width: auto;
@@ -2391,14 +2451,6 @@ justify-content: space-between;
         position: relative;
         background: linear-gradient(186deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
     }
-    /* .bleeding {
-        height: auto;
-        margin-bottom: 60px;
-        width: auto;
-        flex-direction: column;
-        position: relative;
-        background: linear-gradient(10deg, rgba(0,0,0,0) 45%, rgba(214,18,30,1) 45%);
-    } */
     .bleeding {
         height: 640px;
         margin-bottom: 60px;
@@ -2428,15 +2480,14 @@ justify-content: space-between;
         height: 46px;
     }
     .hero_text {
-        /* padding-right: 0; */
         width: 100%;
         position: absolute;
         bottom: 10%;
     }
-    .hero .hero_text {
+    /* .hero .hero_text {
         padding-left: 20px;
         padding-right: 20px; 
-    }
+    } */
     .benefit .slick-prev {
         right: 15%;
     }
@@ -2460,17 +2511,10 @@ justify-content: space-between;
     }
     .bleeding_img img {
         height: 50%;
-        /* position: absolute; */
         top: 50%;
         right: 0;
         width: 100%;
     }
-    /* .bleeding_img img {
-        height: 50%;
-        top: 50%;
-        right: 0;
-        width: 100%;
-    } */
     .recommendations .slick-prev {
         top: -20%;
         right: 15%;
@@ -2762,25 +2806,129 @@ justify-content: space-between;
         margin-right: 15px;
         text-align: left;
     }
-    .product_toothpaste-text {
-        margin-top: 30px;
-    }
     .product_toothpaste_title {
         font-size: 20px;
         line-height: 20px;
         margin-bottom: 10px;
     }
-    .product_toothpaste-text {
-        top: 0;
-        left: 20px;
-        margin-top: 40px;
+    .loader {
+        width: 120px;
+        height: 120px;
+    }
+    .product2 {
+        background-image: url(./img/toothpasteMob.jpg);
+        height: 520px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        align-items: flex-start;
+    }
+    .product_toothpaste_title {
+        margin-bottom: 22px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .product3 {
+        height: 520px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        background-image: url(./img/toothpasteMob2.jpg);
+        align-items: flex-start;
+    }
+    .product4 {
+        height: 520px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        background-image: url(./img/toothpasteMob3.jpg);
+        align-items: flex-start;
+    }
+    .product5 {
+        height: 520px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        flex-direction: column-reverse;
+        padding-left: 0;
+        background-image: url(./img/toothpasteMob5.jpg);
+        align-items: flex-start;
     }
 }
 
 
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    transition: 0.6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(./img/logo.svg); */
+    background-image: url(./img/tooth.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  
+.hide {
+    opacity: 0;
+}
 
-/* @media only screen and (max-width: 460px) {
-    .hero {
-        min-height: 560px;
-    }
-} */
+.loader {
+    position: relative;
+    width: 336px;
+    height: 336px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+  
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid #DEDEDE;
+}
+
+.circle-first {
+    animation: circle-first 1s linear infinite;
+    border-left: 4px solid #f03636;
+
+}
+  
+@keyframes circle-first {
+    0% {
+      transform: rotate(0deg);
+      /* background-image: url(./img/tooth.svg);
+      background-repeat: no-repeat;
+      background-position: center; */
+}}
+@keyframes circle-first {
+    100% {
+        transform: rotate(360deg);
+        /* background-image: url(./img/tooth.svg);
+        background-repeat: no-repeat;
+        background-position: center; */
+}}
+
+
+
+
+
