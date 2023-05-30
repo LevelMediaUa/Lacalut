@@ -71,3 +71,21 @@
         mask.remove();
     }, 600);
 });
+
+
+function myFunction7() {
+  var dots7 = document.getElementById("dots7");
+  var moreText7 = document.getElementById("more7");
+  var btnText7 = document.getElementById("myBtn7");
+
+  if (dots7.style.display === "none") {
+    dots7.style.display = "inline";
+    btnText7.innerHTML = "Кровоточивість ясен"; 
+    moreText7.style.display = "none";
+  } else {
+    dots7.style.display = "none";
+    btnText7.innerHTML = "Кровоточивість ясен"; 
+    moreText7.style.display = "inline";
+  }
+}
+
