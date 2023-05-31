@@ -214,7 +214,6 @@ a {
     justify-content: center;
     align-items: center;
     background-image: url(./img/load.svg);
-    /* background-image: url(./img/tooth.svg); */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -319,7 +318,6 @@ a {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    /* padding-right: 120px; */
 }
 .hero_years {
     height: 116px;
@@ -1758,7 +1756,7 @@ justify-content: space-between;
     align-items: center;
     margin-bottom: 85px;
 }
-.product3 {
+/* .product3 {
     height: 415px;
     width: 100%;
     background-repeat: no-repeat;
@@ -1790,8 +1788,8 @@ justify-content: space-between;
     align-items: center;
     margin-bottom: 85px;
     background-image: url(./img/toothpaste5.jpg);
-}
-.kids {
+} */
+/* .kids {
     height: 880px;
     display: flex;
     background-image: url(./img/kids.jpg);
@@ -1807,7 +1805,7 @@ justify-content: space-between;
     font-size: 18px;
     line-height: 26px;
     color: #717171;
-}
+} */
 .categoryBlog {
     display: none;
 }
@@ -1848,12 +1846,12 @@ justify-content: space-between;
     .categoryBlog {
         display: block;
     }
-    .kids_text{
+    /* .kids_text{
         width: 50%;
         margin-top: 3%;
         font-size: 16px;
         line-height: 16px;
-    }
+    } */
     .blog_img {
         width: 50%;
     }
@@ -2482,7 +2480,7 @@ justify-content: space-between;
         line-height: 130%;
         margin-top: 28px;
     }
-    .kids_text {
+    /* .kids_text {
         width: 100%;
         margin-top: 3%;
         font-size: 16px;
@@ -2492,7 +2490,7 @@ justify-content: space-between;
     .kids {
         height: auto;
         background-position: bottom;
-    }
+    } */
     .product_toothpaste {
         margin-bottom: 40px;
         width: 100%;
@@ -2503,7 +2501,6 @@ justify-content: space-between;
     .product_img {
         width: 100%;
     }
-    /* .prevention_desc, */
     .blog_text {
         font-size: 12px;
         line-height: 14px;
@@ -3070,7 +3067,7 @@ justify-content: space-between;
         font-size: 24px;
         line-height: 26px;
     }
-    .product3 {
+    /* .product3 {
         height: 520px;
         width: 100%;
         background-repeat: no-repeat;
@@ -3080,8 +3077,8 @@ justify-content: space-between;
         padding-left: 0;
         background-image: url(./img/toothpasteMob2.jpg);
         align-items: flex-start;
-    }
-    .product4 {
+    } */
+    /* .product4 {
         height: 520px;
         width: 100%;
         background-repeat: no-repeat;
@@ -3091,8 +3088,8 @@ justify-content: space-between;
         padding-left: 0;
         background-image: url(./img/toothpasteMob3.jpg);
         align-items: flex-start;
-    }
-    .product5 {
+    } */
+    /* .product5 {
         height: 520px;
         width: 100%;
         background-repeat: no-repeat;
@@ -3102,7 +3099,7 @@ justify-content: space-between;
         padding-left: 0;
         background-image: url(./img/toothpasteMob5.jpg);
         align-items: flex-start;
-    }
+    } */
 }
 
 

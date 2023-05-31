@@ -62,8 +62,6 @@
     });
   });
 
-
-
   const mask = document.querySelector('.mask');
   window.addEventListener('load', () => {
     mask.classList.add('hide');
@@ -88,7 +86,6 @@ function myFunction7() {
     moreText7.style.display = "inline";
   }
 }
-
 
 
 const tabs = document.querySelector(".wrapper");
