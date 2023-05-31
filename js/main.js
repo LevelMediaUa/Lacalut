@@ -80,11 +80,11 @@ function myFunction7() {
 
   if (dots7.style.display === "none") {
     dots7.style.display = "inline";
-    btnText7.innerHTML = "Кровоточивість ясен"; 
+    btnText7.innerHTML = "Категорія товарів"; 
     moreText7.style.display = "none";
   } else {
     dots7.style.display = "none";
-    btnText7.innerHTML = "Кровоточивість ясен"; 
+    btnText7.innerHTML = "Категорія товарів"; 
     moreText7.style.display = "inline";
   }
 }

@@ -2745,10 +2745,10 @@ justify-content: space-between;
     .active {
         margin-bottom: 60px;
         flex-direction: column;
+        margin-top: 33px;
     }
     .active_part {
         width: 100%;
-        /* height: 250px; */
     }
     .wrapper {
     height: 220px;
