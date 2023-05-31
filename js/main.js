@@ -89,3 +89,24 @@ function myFunction7() {
   }
 }
 
+
+
+const tabs = document.querySelector(".wrapper");
+const tabButton = document.querySelectorAll(".tab-button");
+const contents = document.querySelectorAll(".content");
+
+tabs.onclick = e => {
+  const id = e.target.dataset.id;
+  if (id) {
+    tabButton.forEach(btn => {
+      btn.classList.remove("valid");
+    });
+    e.target.classList.add("valid");
+
+    contents.forEach(content => {
+      content.classList.remove("valid");
+    });
+    const element = document.getElementById(id);
+    element.classList.add("valid");
+  }
+}
